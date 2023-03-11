@@ -1,10 +1,8 @@
 # Тестовое задание на должность "Junior-разбработчик" в компанию startmedia.
 
 - Кандидат: Переймак Макарий Романович.
-* <a href="https://t.me/@makar359" target="_blank>telegram</a>
-* <a href="mailto:pereymak2012galina@yandex.ru" target="_blank>email</a>
-* [email](<pereymak2012galina@yandex.ru>)
-* [telegram](<https://t.me/@makar359>)
+* pereymak2012galina@yandex.ru
+* [telegram](<https://t.me/makar359>)
 
 ```
 ├── .vscode/
