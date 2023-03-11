@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  margin-right: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}

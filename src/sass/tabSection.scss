@@ -1,0 +1,12 @@
+.tab-section {
+  margin-bottom: 15px;
+
+  &__item {
+    padding: 5px;
+    border: 1px solid #000000;
+
+    &--active {
+      background-color: rgb(223, 220, 40);
+    }
+  }
+}

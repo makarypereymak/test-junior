@@ -1,0 +1,46 @@
+@import "./variables/static.scss";
+@import "./variables/dinamic.scss";
+
+@keyframes slidein {
+  from {
+    margin-left: -100px;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+
+.table {
+  margin-left: 0;
+  border-collapse: collapse;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.15);
+  animation-name: slidein;
+  animation-duration: 4s;
+}
+
+.table__row {
+  border-bottom: 1px solid #000000;
+}
+
+@for $iRow from 1 through $rowCount {
+  $color: rgb($colorNumber, $colorNumber, $colorNumber);
+
+  @for $iColumn from 1 through $columnCount {
+    .table__row:nth-child(#{$iRow}) .table__cell:nth-child(#{$iColumn}) {
+      background-color: $color;
+    }
+    $colorNumber: $colorNumber - $colorNumberStep;
+  }
+}
+
+.table__cell {
+  padding: 5px;
+  color: #000000;
+  border: none;
+
+  &--active {
+    //stylelint-disable-next-line
+    background-color: rgb(223, 220, 40) !important;
+  }
+}
