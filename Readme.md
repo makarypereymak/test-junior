@@ -2,8 +2,8 @@
 
 - Кандидат: Переймак Макарий Романович.
 
-* [email](pereymak2012galina@yandex.ru)
-* [telegram](https://t.me/@makar359)
+* [email](<pereymak2012galina@yandex.ru>)
+* [telegram](<https://t.me/@makar359>)
 
 ```
 ├── .vscode/
